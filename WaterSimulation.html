@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Potion Chain Industry - Particle System Editor</title>
+		<title>Potion Chain Industry - Water Simulation</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -42,26 +42,26 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Particle System Editor</h1>
+										<h1>Water Simulation</h1>
 									</header>
-									<span class="image main"><iframe width="560" height="315" src="https://www.youtube.com/embed/fnVv_fqn_fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+									<span class="image main"><iframe width="560" height="315" src="https://www.youtube.com/embed/0Ff8S0Eh90o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
 								</div>
 							</section>
 							<section id="two" class="spotlights">
 								<section>
 										<div class="image">
-											<img src="images/ParticleSystem.PNG" alt="" data-position="center center" />
+											<img src="images/WaterSimulation.PNG" alt="" data-position="center center" />
 										</div>
 										<div class="content">
 											<div class="inner">
 												<header class="major">
 													<h3>Project</h3>
 												</header>
-												<p>"Particle System Editor" is a system that user can test a particle system with different settings quickly. And because of our architecture, we can render thousands of particles while keeping a high frame rates.
+												<p>In "Water Simulation", we use the techique of environment mapping to set up the skybox. Then we implemented a surface that can reflect the enviroment above, and refract the objects below. Since the whole application was powered rendered by GPU, so our surface can interact with real-time object, like a video. We intergrated OpenCV to allow our project interact with webcam, so that we can tested our application with real-time environment.
 												</p>
-												<ul class="actions">
+												<!--<ul class="actions">
 													<li><a href="https://code-crowd.itch.io/i-hear-you" class="button">Website</a></li>
-												</ul>
+												</ul>-->
 											</div>
 										</div>
 									</section>
@@ -76,9 +76,9 @@
 												</header>
 												<p>
 												Below are my works:<br><br>
-												1. <strong>Designed the architecture of particle system</strong>: Designed the architecture that we passed position of all particles to GPU at one time instead of passing them each at a time. Therefore, we can keep a high frame rate.
+												1. <strong>Set up the OpenGL frame work</strong>: Implemented the frame work of the project that included glew and glut. So that all teammate can develop their feature quickly.
 												<br><br>
-												2. <strong>User Interface</strong>: Set up a user interface that user can click on the attribute they want to modify, and use keyboard to enter the value for attributes.
+												2. <strong>Intergrated OpenCV into project</strong>: Intergrated OpenCV into our project. With OpenCV, we can use webcam to capture the real-time image and stored them into our buffer.
 												</p>
 											</div>
 										</div>
